@@ -1,0 +1,121 @@
+/* error messages */
+span
+{
+   color: red;
+   font-weight: bold;
+   display: none;
+}
+/*for alpabet sort */
+.alpha_sort
+{
+   background-color: antiquewhite;
+   padding-left: 13px;
+   padding-right: 13px;
+   border-radius: 5px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+
+}
+.alpha_sort:hover
+{
+   color:white;
+   background-color: #4d4757;
+
+}
+
+/* all p tag temporally */
+/* p
+{
+   background-color: antiquewhite;
+   padding-left: 13px;
+   padding-right: 13px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   border-radius: 5px;
+   
+} */
+
+
+/* cards in container */
+
+.card-group
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+/* image in card */
+.card-img-top
+{
+   width: 150px;
+   height: 150px;
+   border-radius: 60%;
+   
+}
+.img_div
+{
+   align-self: center;
+   margin-top: 10px;
+   margin-bottom: 15px;
+}
+/* for making all cards and there heading same size */
+.card-group
+{
+   height: 560px;
+   overflow: hidden;
+}
+.card-group:hover
+{
+   overflow: auto;
+} 
+.card-body
+{
+   background-color: rgb(250, 244, 236);
+}
+/* add user form */
+.form-group
+{
+   margin-bottom: 19px;
+   margin-top: 9px;
+}
+
+
+/* hide update btn */
+#update_id
+{
+   display: none;
+}
+
+
+/* no data to show */
+#no_data
+{
+   display: none;
+   color: red;
+   font-weight: bold ;
+}
+
+
+/* .page-item
+{
+   background-color: antiquewhite;
+}
+ul
+{
+   background-color: antiquewhite;
+} */
+
+.page-link
+{
+   background-color: antiquewhite;
+   border-radius: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   
+}
+
+
+.page-link
+{
+   color: black;
+}
